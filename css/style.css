@@ -9,12 +9,10 @@ body {
   font-size: 1em; /* 16px */
   color: #3a3a3a;
   line-height: 1.6;
-  /* TO-DO: add a font for the website later! */
 }
 
 h1 {
   font-family: 'Muli', sans-serif;
-
 }
 
 p {
@@ -36,20 +34,50 @@ span {
 
 h2 {
   margin: 0;
+  text-decoration: underline;
+  color: #2A2D34;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* =============== Base Layout Styles =============== */
+
+/* ---------- Navigation ---------- */
 
 .name {
   margin: 0;
   font-size: 1.25em;
 }
 
-.main-nav {
-  margin-top: 5px;
+.name,
+.main-nav li { /* TO-DO: Figure out why .main-nav a{} wasn't working */
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
+.name a {
+  color: #2A2D34;
+}
+
+.main-nav a {
+  /* margin-top: 5px; */
+  text-transform: uppercase;
+}
+
+.main-nav a {
+  color: #EBCFB2;
+}
+
+.main-nav a:hover {
+  color: #2A2D34;
+}
+
+/* ---------- Banner ---------- */
+
 .banner {
+  text-align: center;
   background: #424B54;
   padding-top: 90px;
   padding-bottom: 45px;
@@ -66,8 +94,6 @@ h2 {
   font-size: 1.3em;
 }
 
-
-
 /* =============== Layout Containers =============== */
 
 .main-header {
@@ -80,18 +106,10 @@ h2 {
   text-align: center;
 }
 
-.main-nav {
-  text-transform: uppercase;
-}
-
 .main-footer {
   background: #424B54;
   margin-top: 30px; /* creating some space between the top of the footer and the bottom of the website */
   padding: 2em 0;
-}
-
-.banner {
-  text-align: center;
 }
 
 .col-container {
