@@ -1,0 +1,52 @@
+/* =============== Base Element Styles =============== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #3a3a3a;
+  line-height: 1.6;
+  /* TO-DO: add a font for the website later! */
+}
+
+p {
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #ffffff;
+}
+
+/* =============== Base Layout =============== */
+
+
+
+
+
+
+
+
+/* =============== Layout Containers =============== */
+
+.main-header,
+.main-footer {
+  text-align: center;
+  background: #424B54;
+}
+
+
+
+
+
+
+
+
+
+
+/* =============== Media Queries =============== */
