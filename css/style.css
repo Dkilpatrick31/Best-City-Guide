@@ -57,8 +57,13 @@ img {
   padding-bottom: 25px;
 }
 
-.name a {
+.name a,
+.about a {
   color: #2A2D34;
+}
+
+.main-footer a {
+  color: #A0DDE6;
 }
 
 .main-nav a {
