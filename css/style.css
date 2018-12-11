@@ -5,45 +5,99 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em; /* 16px */
   color: #3a3a3a;
   line-height: 1.6;
   /* TO-DO: add a font for the website later! */
 }
 
-p {
+h1 {
+  font-family: 'Muli', sans-serif;
 
 }
 
+p {
+  font-size: 1.3em;
+  margin-bottom: 1.8em;
+}
 
 a {
   text-decoration: none;
 }
 
 span {
-  color: #ffffff;
+  color: #EBCFB2;
 }
 
-/* =============== Base Layout =============== */
+.name {
+  color: #fff;
+}
 
+h2 {
+  margin: 0;
+}
 
+/* =============== Base Layout Styles =============== */
 
+.name {
+  margin: 0;
+  font-size: 1.25em;
+}
 
+.main-nav {
+  margin-top: 5px;
+}
 
+.banner {
+  background: #424B54;
+  padding-top: 90px;
+  padding-bottom: 45px;
+  margin-bottom: 60px;
+}
+
+.headline {
+  color: #EBCFB2;
+  margin-bottom: 0;
+  font-size: 3em;
+}
+
+.tagline {
+  font-size: 1.3em;
+}
 
 
 
 /* =============== Layout Containers =============== */
 
+.main-header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
 .main-header,
 .main-footer {
   text-align: center;
-  background: #424B54;
 }
 
+.main-nav {
+  text-transform: uppercase;
+}
 
+.main-footer {
+  background: #424B54;
+  margin-top: 30px; /* creating some space between the top of the footer and the bottom of the website */
+  padding: 2em 0;
+}
 
+.banner {
+  text-align: center;
+}
 
-
+.col-container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 
 
