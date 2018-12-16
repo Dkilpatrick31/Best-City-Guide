@@ -113,8 +113,9 @@ img {
 
 .main-footer {
   background: #424B54;
-  margin-top: 30px; /* creating some space between the top of the footer and the bottom of the website */
+  margin-top: 20px; /* creating some space between the top of the footer and the bottom of the website */
   padding: 2em 0;
+  font-size: 2em;
 }
 
 .col-container {
@@ -122,6 +123,35 @@ img {
   padding-right: 1em;
 }
 
+
+/* =========== Media Queries =========== */
+
+@media (min-width: 812px) {
+
+  .clearfix {
+    overflow: auto;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .main-header {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+  }
+
+  .welcome {
+    text-align: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
 
 
 
