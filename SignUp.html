@@ -5,21 +5,64 @@
     <title></title>
   </head>
   <body>
+
     <form class="sign-up" action="index.html" method="post">
+
+      <!-- form header -->
       <h1>Sign Up</h1>
+      <!-- form boxes -->
       <fieldset>
+        <!-- heading for the top box  -->
         <legend><span class="number">1. </span>Your Basic Info</legend>
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name" value="Type in a username">
+
         <label for="mail">Email</label>
         <input type="email" id="mail" name="user_email" value="Type in an email address">
+
         <label for="password">Password:</label>
         <input type="password" id="password" name="user_password" value="Type in a password">
+
+        <label>Radio:</label>
+
+        <input type="radio" id="under_13" name="user_age" value="under_13"><label for="under_13" class="light">Under 13</label>
+        <!-- the class light is from the teamtreehouse css file that makes the aesthetics of this label lighter ^ -->
+        <input type="radio" id="over_13" name="user_age" value="over_13"><label for="over_13" class="light">13 or Older</label>
+
       </fieldset>
+
       <fieldset>
+        <!-- heading for the 2nd box -->
         <legend><span class="number">2. </span>Your Profile</legend>
         <label for="bio">Biography</label>
+        <!-- text-box for the Biography part of the form -->
         <textarea id="bio" name="user_bio" rows="8" cols="80"></textarea>
+        <!-- drop-down menu for the users-jobs -->
+        <select id="job" name="user_job">
+          <!-- first category for dropdown menu -->
+          <optgroup label="Web">
+            <!-- options for the first category -->
+            <option value="frontend_developer">Front-End Developer</option>
+            <option value="php_developer">PHP Developer</option>
+            <option value="python_developer">Python Developer</option>
+            <option value="rails_developer">Rails Developer</option>
+            <option value="web_developer">Web Developer</option>
+            <option value="wordpress_developer">Wordpress Developer</option>
+          </optgroup>
+          <!-- second category for dropdown menu -->
+          <optgroup label="Mobile">
+            <option value="android_developer">Android Developer</option>
+            <option value="ios_develoepr">IOS Developer</option>
+            <option value="mobile_developer">Mobile Developer</option>
+          </optgroup>
+          <!-- third category for dropdown menu -->
+          <optgroup label="Business">
+            <option value="business_owner">Business Owner</option>
+            <option value="freelance">Freelancer</option>
+            <option value=""></option>
+          </optgroup>
+        </select>
       </fieldset>
       <button type="submit" name="button-submit">Sign Up</button>
     </form>
